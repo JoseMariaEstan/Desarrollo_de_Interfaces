@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMESA</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer ></script> 
+        <!--defer -> para que se ejecute después de que se cargue completamente el HTML-->   
+</head>
+<body>
+    <h1>Alumno:</h1>    
+    <form>
+        <div>
+            <label for="dni" placeholder="Dni:">Dni:</label>
+            <input type="text" name="dni" id="dni" >
+        </div>
+        <div>
+            <label for="nombre" placeholder="Nombre:">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" > 
+        </div>
+        <div>
+            <label for="apellido_1" placeholder="Apellido:">Apellido 1:</label>
+            <input type="text" name="apellido_1" id="apellido_1"> 
+        </div>
+        <div>
+            <label for="localidad" placeholder="Localidad:">Localidad:</label>
+            <input type="text" name="localidad" id="localidad" > 
+        </div>
+
+        <input type="button" value="Obtener" id="obtener">
+        <input type="button" value="Insertar" id="insertar">
+        <input type="button" value="Actualizar" id="actualizar">
+        <input type="button" value="Borrar" id="borrar">
+        
+    </form>
+</body>
+</html>
